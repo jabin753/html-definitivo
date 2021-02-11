@@ -1,0 +1,4 @@
+h2 + p {
+    /* Toda la etiqueta párrafo cerca de un h2 aplica la siguiente regla */
+    color: red;
+}
