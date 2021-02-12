@@ -1,9 +1,8 @@
-h2 + p {
-    /* Toda la etiqueta párrafo cerca de un h2 aplica la siguiente regla */
-    color: red;
+div p {
+    /* Cuelquier p que esté dentro de un link */
+    color: blue;
 }
-
-h2 ~ p {
-    /* Todos los hermanos generales */
+div > p {
+    /* La etiqueta parrafo que sea hija directa de una div */
     color: red;
 }
