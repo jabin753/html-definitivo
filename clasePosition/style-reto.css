@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+.content {
+    display: inline-block;
+    /* border: 2px darkred double; */
+}
+.content-header {
+    background-color: red;
+    border: 2px darkred double;
+    border-radius: 16px;
+    position: relative;
+    margin: 0 auto; 
+    top: 45px;
+    width: 200px;
+    padding: 30px 30px;
+    position: relative;
+}
+.content-desc {
+    background-color: rgb(224, 220, 224);
+    border: 2px rgb(151, 149, 157) double;
+    padding: 80px 30px;
+    border-radius: 25px;
+    width: 500px;
+}
